@@ -9,6 +9,7 @@
 # Temporary need the settings and services for testing purposes
 # /web/sites/*/*settings*.php
 # /web/sites/*/*services*.yml
+web/sites/default/default.settings.php
 /web/sites/default/default.services.yml
 
 # Ignore paths that may contain user-generated content
