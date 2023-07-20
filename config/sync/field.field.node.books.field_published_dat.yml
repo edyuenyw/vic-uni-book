@@ -1,0 +1,21 @@
+uuid: 8cd75500-dc84-43bc-b475-1e303f79f677
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_published_dat
+    - node.type.books
+  module:
+    - datetime
+id: node.books.field_published_dat
+field_name: field_published_dat
+entity_type: node
+bundle: books
+label: 'Published Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
