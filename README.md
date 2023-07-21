@@ -17,34 +17,34 @@ Installations for WSL2
 
 ```
 # composer with drush to be used later
-*lando composer install* 
+lando composer install 
 ```
 
 ```
 # this will create the app and will have the appserver urls including the proxies.
-*lando start*
+lando start
 ```
 
 ![Appserver](image.png)
 
 ```
 # Database with some book content
-*lando db-import dump.sql.gz* 
+lando db-import dump.sql.gz 
 ```
 
 ```
 # Import configs (probably not needed but this is related to RESTFUL Web Service module view)
-*lando drush cim -y*
+lando drush cim -y
 ```
 
 ```
 # Quick password update
-*lando upwd admin "password"*
+lando upwd admin "password"
 ```
 
 ```
 # Clear Drupal cache to bring in latest change.
-*lando drush cr*
+lando drush cr
 ```
 
 Check that Drupal site is up and running and also the jsonapi link is there e.g https://vic-uni-book.lndo.site/jsonapi/node/books
